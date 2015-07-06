@@ -1,8 +1,5 @@
 class User < ActiveRecord::Base
-  enum role: [:user, :admin]
-  after_initialize :set_default_role, :if => :new_record?
-
-  attr_accessor :password, :password_confirmation
+  attr_accessor :password, :password_confirmation, :admin
   validates :email, presence: true,
                     uniqueness: true,
                     format: {
@@ -12,10 +9,6 @@ class User < ActiveRecord::Base
   before_save :downcase_email
   validates_confirmation_of :password
   before_save :encrypt_password
-
-  def set_default_role
-    self.role ||= :user
-  end
 
   def downcase_email
     self.email = email.downcase

@@ -1,0 +1,17 @@
+<%=form_for User.new do |f| %>
+  <div class="field">
+    <%=f.label :email %><br>
+    <%=f.text_field :email %>
+  </div>
+  <div class="field">
+    <%=f.label :password %><br>
+    <%=f.password_field :password %>
+  </div>
+  <div class="field">
+    <%=f.label :password_confirmation, "Password (again)"%><br>
+    <%=f.password_field :password_confirmation %>
+  </div><br>
+  <div class="actions">
+    <%=f.submit "Sign Up" %>
+  </div>
+<%end%>
