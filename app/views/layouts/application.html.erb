@@ -7,8 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= flash[:alert] %>
+  <%= flash[:notice] %>
 
-<%= yield %>
+  <div class="container">
+    <div class="row">
+      <h2 class="page-header text-center">
+        <%= link_to 'Stack Home', "/" %>
+      </h2>
+
+      <div class="col-sm-6 col-sm-offset-3">
+        <%= yield %>
+      </div>
+
+    </div>
+  </div>
 
 </body>
 </html>
