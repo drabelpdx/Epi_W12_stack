@@ -1,13 +1,16 @@
 class User < ActiveRecord::Base
-  attr_accessor :password, :password_confirmation, :admin
+  has_many :questions
+  has_many :answers
+
+  attr_accessor :password, :password_confirmation
   validates :email, presence: true,
                     uniqueness: true,
                     format: {
                       with: /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/
                     }
 
-  before_save :downcase_email
   validates_confirmation_of :password
+  before_save :downcase_email
   before_save :encrypt_password
 
   def downcase_email

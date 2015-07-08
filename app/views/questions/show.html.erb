@@ -1,0 +1,27 @@
+<h1><%= @question.title %></h1>
+
+<h3><%= @question.body %></h3>
+
+<h4>Asked by: <%= @question.user.email %></h4>
+
+<% if current_user != nil %>
+  <% if @question.user_id == current_user.id %>
+    <%= link_to "Edit Question", edit_user_question_path(current_user, @question) %>
+    <%= link_to "Delete Question", user_question_path(current_user, @question),
+                                    :data => {:confirm => "Are you sure?",
+                                              :method => 'delete'}%>
+  <% end %>
+
+  <%= link_to "Add answer", new_question_answer_path(@question, @answer) %>
+  <ul>
+    <% @question.answers.each do |answer| %>
+      <li><%= answer.body %> -- <small><%= answer.user.email %></small>
+      </li>
+      <hr>
+    <% end %>
+  </ul>
+
+
+<% else %>
+  <p>You must be logged in to view/add answers</p>
+<% end %>

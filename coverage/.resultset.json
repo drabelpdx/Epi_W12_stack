@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/stack/spec/features/users_signup_spec.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/spec/features/users_signup_spec.rb": [
         1,
         null,
         1,
@@ -10,18 +10,18 @@
         null,
         1,
         1,
-        1,
+        0,
         null,
-        1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
+        0,
         null,
-        1,
+        0,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/spec/rails_helper.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -76,14 +76,14 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/environment.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack/config/application.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/application.rb": [
         1,
         null,
         1,
@@ -120,12 +120,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/boot.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack/config/environments/test.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/environments/test.rb": [
         1,
         null,
         null,
@@ -169,7 +169,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/assets.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -182,7 +182,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/backtrace_silencers.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -191,18 +191,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/cookies_serializer.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/filter_parameter_logging.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/inflections.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -220,18 +220,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/mime_types.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/session_store.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack/config/initializers/wrap_parameters.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -247,14 +247,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/spec/factories.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/spec/factories.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/config/routes.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/config/routes.rb": [
         1,
         1,
         null,
@@ -263,13 +263,20 @@
         1,
         null,
         1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
-      "/Users/Guest/Desktop/stack/app/helpers/application_helper.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack/spec/models/answer_spec.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/spec/models/answer_spec.rb": [
         1,
         null,
         1,
@@ -277,14 +284,15 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/stack/app/models/answer.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/app/models/answer.rb": [
+        1,
         1,
         1,
         null,
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack/spec/models/question_spec.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/spec/models/question_spec.rb": [
         1,
         null,
         1,
@@ -294,16 +302,19 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/app/models/question.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/app/models/question.rb": [
+        1,
         1,
         1,
         null,
         1,
         1,
+        null,
+        5,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/spec/models/user_spec.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -362,29 +373,32 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/app/models/user.rb": [
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/app/models/user.rb": [
         1,
         1,
         1,
         null,
         1,
-        7,
+        1,
+        null,
+        null,
+        null,
         null,
         null,
         1,
-        6,
+        1,
+        1,
+        null,
+        1,
         6,
         null,
         null,
         1,
+        5,
+        5,
+        null,
+        null,
+        1,
         0,
         0,
         0,
@@ -394,84 +408,26 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/app/controllers/home_controller.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/app/controllers/home_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack/app/controllers/application_controller.rb": [
+      "/Users/DavidsAir/Desktop/Epi_git/Epi_W12_stack/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null,
         1,
-        0,
+        2,
         null,
         null,
         1,
-        null
-      ],
-      "/Users/Guest/Desktop/stack/app/controllers/users_controller.rb": [
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
         null
       ]
     },
-    "timestamp": 1436221751
+    "timestamp": 1436332447
   }
 }

@@ -1,0 +1,7 @@
+<h1>Edit Question</h1>
+
+<% if @question.user_id == current_user.id %>
+  <%= render 'form' %>
+<% else %>
+  <h3>You must be the user who asked the question to edit it! CHEATER!</h3>
+<% end %>

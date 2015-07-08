@@ -54,7 +54,7 @@ private
   #   end
   # end
 
-  # def secure_params
-  #   params.require(:user).permit(:admin)
-  # end
+  def secure_params
+    params.require(:user).permit(:admin)
+  end
 end
